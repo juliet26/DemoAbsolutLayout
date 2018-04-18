@@ -29,4 +29,55 @@
                 AbsoluteLayout.LayoutFlags="HeightProportional">
         </Button>
     </AbsoluteLayout>-->
+    <ScrollView>
+        <StackLayout Margin="10, 20, 10, 10">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Nombre"
+                   VerticalOptions="Center"
+                   FontAttributes="Bold">
+                </Label>
+                <Entry Placeholder="Ingrese su nombre"
+                   HorizontalOptions="FillAndExpand">
+                </Entry>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Dirección"
+                   VerticalOptions="Center"
+                   FontAttributes="Bold">
+            </Label>
+            <Entry Placeholder="Ingrese su dirección"
+                   HorizontalOptions="FillAndExpand">
+            </Entry>
+        </StackLayout>
+        <StackLayout>
+            <BoxView BackgroundColor="Green"
+                     VerticalOptions="FillAndExpand"
+                     HeightRequest="500"
+                     HorizontalOptions="FillAndExpand">
+            </BoxView>
+
+            <Button Text="Buscar foto">
+
+            </Button>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Correo electrónico"
+                   VerticalOptions="Center"
+                   FontAttributes="Bold">
+            </Label>
+            <Entry Placeholder="Ingrese su correo"
+                   HorizontalOptions="FillAndExpand">
+            </Entry>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Password"
+                   VerticalOptions="Center"
+                   FontAttributes="Bold">
+            </Label>
+            <Entry Placeholder="Ingrese su password"
+                   HorizontalOptions="FillAndExpand">
+            </Entry>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>
